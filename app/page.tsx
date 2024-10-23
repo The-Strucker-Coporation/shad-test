@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <BookCa
+      <BookCarousel />
       <GeneralCatalog/>
       <ContactSection />
     </>
