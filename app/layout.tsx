@@ -8,9 +8,9 @@ import { FooterSection } from "@/components/layout/sections/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shadcn - Landing template",
-  description: "Landing template from Shadcn",
-};
+  title: "Hummingbird Musikk Limited",
+  description: "Sing it like you want it."
+}
 
 export default function RootLaeyout({
   children,
