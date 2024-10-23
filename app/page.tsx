@@ -1,5 +1,6 @@
 
 import { ContactSection } from "@/components/layout/sections/contact";
+import {BookCarousel} from "@/components/layout/sections/BookCarousel";
 
 import { HeroSection } from "@/components/layout/sections/hero";
 import { GeneralCatalog } from "@/components/layout/sections/GeneralCatalog"; // Import the Catalog component
@@ -37,6 +38,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <BookCa
       <GeneralCatalog/>
       <ContactSection />
     </>
