@@ -43,7 +43,7 @@ export const ContactSection = () => {
       firstName: "",
       lastName: "",
       email: "",
-      subject: "Web Development",
+      subject: "Request for Quotation",
       message: "",
     },
   });
@@ -52,7 +52,7 @@ export const ContactSection = () => {
     const { firstName, lastName, email, subject, message } = values;
     console.log(values);
 
-    const mailToLink = `mailto:leomirandadev@gmail.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
+    const mailToLink = `mailto:info@hummingbirdmusikk.com?subject=${subject}&body=Hello, I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
 
     window.location.href = mailToLink;
   }
@@ -65,11 +65,10 @@ export const ContactSection = () => {
             <h2 className="text-lg text-primary mb-2 tracking-wider">
               Contact
             </h2>
-            <h2 className="text-3xl md:text-4xl font-bold">Connect With Us</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Get a Quotation</h2>
           </div>
           <p className="mb-8 text-muted-foreground lg:w-5/6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            ipsam sint enim exercitationem ex autem corrupti quas tenetur.
+            Contact us to receive a tailored quote based on your needs.
           </p>
 
           <div className="flex flex-col gap-4">
@@ -78,7 +77,7 @@ export const ContactSection = () => {
                 <Building2 />
                 <div className="font-bold">Find us</div>
               </div>
-              <div>742 Evergreen Terrace, Springfield, IL 62704</div>
+              <div>Nairobi, Kenya, Westlands, Kipro Centre, 5th Floor</div>
             </div>
 
             <div>
@@ -86,7 +85,7 @@ export const ContactSection = () => {
                 <Phone />
                 <div className="font-bold">Call us</div>
               </div>
-              <div>+1 (619) 123-4567</div>
+              <div>+254 718 600 266</div>
             </div>
 
             <div>
@@ -94,7 +93,7 @@ export const ContactSection = () => {
                 <Mail />
                 <div className="font-bold">Mail us</div>
               </div>
-              <div>leomirandadev@gmail.com</div>
+              <div>info@hummingbirdmusikk.com</div>
             </div>
 
             <div>
@@ -126,7 +125,7 @@ export const ContactSection = () => {
                       <FormItem className="w-full">
                         <FormLabel>First Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Leopoldo" {...field} />
+                          <Input placeholder="Your First Name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -139,7 +138,7 @@ export const ContactSection = () => {
                       <FormItem className="w-full">
                         <FormLabel>Last Name</FormLabel>
                         <FormControl>
-                          <Input placeholder="Miranda" {...field} />
+                          <Input placeholder="Your Last Name" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -157,7 +156,7 @@ export const ContactSection = () => {
                         <FormControl>
                           <Input
                             type="email"
-                            placeholder="leomirandadev@gmail.com"
+                            placeholder="Your Email"
                             {...field}
                           />
                         </FormControl>
@@ -184,18 +183,17 @@ export const ContactSection = () => {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="Web Development">
-                              Web Development
+                            <SelectItem value="Request for Quotation">
+                              Request for Quotation
                             </SelectItem>
-                            <SelectItem value="Mobile Development">
-                              Mobile Development
+                            <SelectItem value="Music Publishing Services">
+                              Music Publishing Services
                             </SelectItem>
-                            <SelectItem value="Figma Design">
-                              Figma Design
+                            <SelectItem value="Education Materials">
+                              Education Materials
                             </SelectItem>
-                            <SelectItem value="REST API">REST API</SelectItem>
-                            <SelectItem value="FullStack Project">
-                              FullStack Project
+                            <SelectItem value="Music Production">
+                              Music Production
                             </SelectItem>
                           </SelectContent>
                         </Select>
@@ -215,7 +213,7 @@ export const ContactSection = () => {
                         <FormControl>
                           <Textarea
                             rows={5}
-                            placeholder="Your message..."
+                            placeholder="Details for your quote..."
                             className="resize-none"
                             {...field}
                           />
@@ -226,7 +224,7 @@ export const ContactSection = () => {
                   />
                 </div>
 
-                <Button className="mt-4">Send message</Button>
+                <Button className="mt-4">Request Quotation</Button>
               </form>
             </Form>
           </CardContent>
