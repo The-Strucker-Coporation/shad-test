@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
-
+import { BookModal } from "./BookModal";
 export const GeneralCatalog = () => {
   const bookList = [
     // Creative Arts Books
@@ -93,10 +93,9 @@ export const GeneralCatalog = () => {
             <CardContent className="pb-6 text-muted-foreground">
               {description}
             </CardContent>
-            <CardFooter className="mt-auto">
-              <Link href={link} className="hover:opacity-80 transition-all">
-                View Details
-              </Link>
+            <CardFooter className="mt-auto items-center justify-center">
+            
+              <BookModal/>
             </CardFooter>
           </Card>
         ))}
