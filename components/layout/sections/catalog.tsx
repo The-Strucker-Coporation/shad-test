@@ -20,13 +20,13 @@ export const Catalog = () => {
     {
       imageUrl: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Creative Activities Learner’s Book - Grade 2",
-      description: "Features a variety of activities with simple, clear instructions designed to encourage self-study. The book includes relatable illustrations and ample review questions to reinforce the learners' understanding of concepts.",
+      description: "Features a variety of activities with simple, clear instructions designed to encourage self-study.",
       link: "/books/learners/creative-activities/grade-2",
     },
     {
       imageUrl: "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Creative Arts Learner’s Book - Grade 5",
-      description: "An all-encompassing course book that adheres to the Competency-Based Curriculum, enabling learners to appreciate and apply the knowledge they acquire in their daily lives.",
+      description: "An all-encompassing course book adhering to the Competency-Based Curriculum; enabling learners to appreciate and apply the knowledge they acquire in their daily lives.",
       link: "/books/learners/creative-arts/grade-5",
     },
     // Workbooks
