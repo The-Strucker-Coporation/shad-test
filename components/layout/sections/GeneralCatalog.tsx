@@ -2,33 +2,41 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { BookModal } from "./BookModal";
+
 export const GeneralCatalog = () => {
   const bookList = [
     // Creative Arts Books
     {
-      imageUrl: "/C2.jpg",
+      imageUrl: "/C6.jpg",
       title: "Creative Arts Learner’s Book - Grade 6",
       description: "A comprehensive course book aligned with the Competency-Based Curriculum, featuring engaging activities that promote practical learning.",
       link: "/books/learners/creative-arts/grade-6",
     },
     {
-      imageUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/C9.jpg",
       title: "Creative Arts and Sports Learner’s Book - Grade 9",
       description: "This learner-centered book incorporates essential core competencies, Pertinent and Contemporary Issues (PCIs), as well as key values, skills, and attitudes through interactive activities.",
       link: "/books/learners/creative-arts-and-sports/grade-9",
     },
     {
-      imageUrl:"",
+      imageUrl: "/C2.jpg",
       title: "Creative Activities Learner’s Book - Grade 2",
       description: "Features a variety of activities with simple, clear instructions designed to encourage self-study.",
       link: "/books/learners/creative-activities/grade-2",
     },
     {
-      imageUrl: "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      imageUrl: "/C5.jpg",
       title: "Creative Arts Learner’s Book - Grade 5",
       description: "An all-encompassing course book adhering to the Competency-Based Curriculum; enabling learners to appreciate and apply the knowledge they acquire in their daily lives.",
       link: "/books/learners/creative-arts/grade-5",
     },
+    {
+      imageUrl: "/C3.jpg",
+      title: "Creative Arts Learner’s Book - Grade 3",
+      description: "This book introduces Grade 3 students to hands-on creative arts activities, fostering imagination and skill development through fun, practical lessons.",
+      link: "/books/learners/creative-arts/grade-3",
+    },
+
     // Workbooks
     {
       imageUrl: "https://i.pravatar.cc/250?img=55",
@@ -85,7 +93,7 @@ export const GeneralCatalog = () => {
                   alt={title}
                   width={300}
                   height={300}
-                  className="w-full aspect-square object-cover saturate-0 transition-all duration-200 ease-linear group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
+                  className="w-full  aspect-rectangle object-fill  transition-all duration-200 ease-linear group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
                 />
               </div>
               <CardTitle className="py-6 pb-4 px-6">{title}</CardTitle>
@@ -94,8 +102,7 @@ export const GeneralCatalog = () => {
               {description}
             </CardContent>
             <CardFooter className="mt-auto items-center justify-center">
-            
-              <BookModal/>
+              <BookModal />
             </CardFooter>
           </Card>
         ))}
