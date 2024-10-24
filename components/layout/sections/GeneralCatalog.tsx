@@ -69,7 +69,7 @@ export const GeneralCatalog = () => {
       link: "/books/workbooks/music-workbook-5",
     },
     {
-      imageUrl: "/book6.jpg",
+      imageUrl: "/book6.png",
       title: "Music Workbook 6",
       description: "Completes the series with exercises focusing on counterpoint and advanced chord structures.",
       link: "/books/workbooks/music-workbook-6",
