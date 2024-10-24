@@ -4,10 +4,11 @@ import { Carousel,  CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious, } from "@/components/ui/carousel";
-import { HeroSection } from "@/components/layout/sections/hero";
+import { AboutHero } from "@/components/layout/sections/AboutHero";
 import { GeneralCatalog } from "@/components/layout/sections/GeneralCatalog"; // Import the Catalog component
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 import {BookCarousel} from "@/components/layout/sections/BookCarousel";
+
 
 export const metadata = {
   title: "Hummingbird Musikk",
@@ -40,7 +41,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <HeroSection />
+      <AboutHero />
 
      <BookCarousel />
 
