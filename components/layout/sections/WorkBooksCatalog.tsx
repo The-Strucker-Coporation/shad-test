@@ -61,7 +61,7 @@ export const WorkBooksCatalog = () => {
                   alt={title}
                   width={300}
                   height={300}
-                  className="w-full aspect-rectangle object-fill transition-all duration-200 ease-linear size-full group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
+                  className="w-fullh-full aspect-square object-fill transition-all duration-200 ease-linear size-full group-hover/hoverimg:saturate-100 group-hover/hoverimg:scale-[1.01]"
                 />
               </div>
               <CardTitle className="py-6 pb-4 px-6">{title}</CardTitle>
