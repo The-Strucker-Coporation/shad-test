@@ -39,37 +39,37 @@ export const GeneralCatalog = () => {
 
     // Workbooks
     {
-      imageUrl: "https://i.pravatar.cc/250?img=55",
+      imageUrl: "/book1.jpg",
       title: "Music Workbook 1",
       description: "Covers the fundamentals of music theory, complete with exercises aimed at enhancing note-reading and rhythm skills.",
       link: "/books/workbooks/music-workbook-1",
     },
     {
-      imageUrl: "https://i.pravatar.cc/250?img=54",
+      imageUrl: "/book2.jpg",
       title: "Music Workbook 2",
       description: "Builds upon Workbook 1 with advanced rhythm exercises and melodic exploration.",
       link: "/books/workbooks/music-workbook-2",
     },
     {
-      imageUrl: "https://i.pravatar.cc/250?img=53",
+      imageUrl: "/book3.jpg",
       title: "Music Workbook 3",
       description: "Enhances understanding of musical notation and harmony to improve sight-reading skills.",
       link: "/books/workbooks/music-workbook-3",
     },
     {
-      imageUrl: "https://i.pravatar.cc/250?img=52",
+      imageUrl: "/book4.jpg",
       title: "Music Workbook 4",
       description: "Challenges students with complex music theory concepts, including intervals and chord progressions.",
       link: "/books/workbooks/music-workbook-4",
     },
     {
-      imageUrl: "https://i.pravatar.cc/250?img=51",
+      imageUrl: "/book5.jpg",
       title: "Music Workbook 5",
       description: "Focuses on advanced harmony and composition techniques, fostering creative expression.",
       link: "/books/workbooks/music-workbook-5",
     },
     {
-      imageUrl: "https://i.pravatar.cc/250?img=50",
+      imageUrl: "/book6.jpg",
       title: "Music Workbook 6",
       description: "Completes the series with exercises focusing on counterpoint and advanced chord structures.",
       link: "/books/workbooks/music-workbook-6",
