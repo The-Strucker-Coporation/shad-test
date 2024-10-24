@@ -16,7 +16,7 @@ export const FooterSection = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Connect with us on Our Socials</h3>
+            <h3 className="font-bold text-lg">Our Socials</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 Facebook
@@ -38,7 +38,7 @@ export const FooterSection = () => {
 
 
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-lg">Need Help? Reach out through</h3>
+            <h3 className="font-bold text-lg">Got an enquiry?</h3>
             <div>
               <Link href="#" className="opacity-60 hover:opacity-100">
                 Contact Us
@@ -81,10 +81,10 @@ export const FooterSection = () => {
            Powered By
             <Link
               target="_blank"
-              href="https://github.com/The-Strucker-Coporation"
+              href="https://linktr.ee/resleentechnative"
               className="text-primary transition-all border-primary hover:border-b-2 ml-1"
             >
-             Resleen Tech Native.&copy;
+             Resleen Tech Native Ltd.&copy;
             </Link>
           </h3>
         </section>
